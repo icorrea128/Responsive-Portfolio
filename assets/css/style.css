@@ -1,0 +1,222 @@
+body {
+    background-color:rgba(17, 132, 199, 0.979);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.Image {
+    height:200px;
+    margin-left:30px;
+    float:left;
+    margin-right:30px;
+
+}
+#Content {
+    position:relative;
+    background-color:#ffffff;
+    border:1px solid #dddddd;
+    left:0px;
+    bottom:-15px;
+    width:960px;
+    height:900px;  
+}
+p{
+    width:900px;
+    margin:30px;
+}
+h2 {
+    position:relative;
+    right:-30px;
+}
+hr{
+    width:900px;
+}
+header {
+    height:100px;
+    border:1px solid #cccccc;
+    background-Color:#ffffff;
+}
+.Links {
+    position:absolute;
+    right:60px;
+    top:50px;
+}
+.Name {
+    position:absolute;
+    background-color:rgb(151,158,44);
+    left:160px;
+    height:100px;
+    
+}
+footer {
+    background-Color:#4aaaa5;
+    border:5px solid rgb(151, 158, 44);
+    bottom:-250px;
+    position:absolute;
+    width:100%;
+    left:0;
+}
+#Gallery {
+    position:absolute;
+    left:100px;
+}
+.Image1 {
+    width:250px;
+    height:250px;
+}
+.Image2 {
+    width:250px;
+    height:250px;
+}
+.Image3 {
+    width:250px;
+    height:250px;
+}
+.Image4 {
+    width:250px;
+    height:250px;
+}
+.Image5 {
+    width:250px;
+    height:250px;
+}
+
+form {
+    text-align:center;
+    
+}
+#Contact {
+    position:relative;
+    background-color:#ffffff;
+    border:1px solid #dddddd;
+    left:0px;
+    bottom:-15px;
+    width:600px;
+    height:600px;  
+}
+#Connect {
+    width:300px;
+    background-color:#ffffff;
+    border:1px solid #dddddd;
+    height:150px;
+    position:absolute;
+    right:25px;
+    top:120px;
+}
+.Info {
+   position:absolute;
+   left:100px;
+   top:0px;
+}
+
+.form {
+    text-align:left;
+    position:absolute;
+    right:75px;
+}
+
+input:hover {
+    color:beige;
+}
+#footer{
+    bottom:-800px;
+}
+
+
+
+@media screen and (max-width: 980px){
+
+  
+    .wrapper {
+        width:100%;
+        padding: 20px;
+    }
+
+    #Content, p, hr, .Links  {
+        width:100%;
+    }
+    #Content {
+        height:900px;
+    }
+
+    #header {
+        float:none;
+        width:100%;
+    }
+    #footer{
+        bottom:-800px;
+    }
+    .Name {
+        text-align:center;
+    }
+
+}
+
+@media screen and (max-width: 780px){
+
+    .wrapper {
+        width:100%x;
+        padding: 20px;
+    }
+
+    #Content,p, hr, .Links, #footer {
+        width:100%;
+    }
+
+    #Content {
+        height:900px;
+    }
+
+    #header {
+        float:none;
+        width:100%;
+    }
+    #footer{
+        bottom:-800px;
+    }
+    .Name {
+        text-align:center;
+        
+    }
+
+}
+
+@media screen and (max-width: 640px){
+
+    .wrapper {
+        width:100%;
+        padding: 20px;
+    }
+
+    #Content, p, hr, .Links #footer {
+        width:100%;
+    }
+    #Content {
+        height:900px;
+    }
+
+    #Connect {
+        width:600px;
+        background-color:#ffffff;
+        border:1px solid #dddddd;
+        height:150px;
+        position:absolute;
+        left:25px;
+        bottom:0px;
+    }
+    .Links {
+        width:100%;
+    }
+
+    #header {
+        float:none;
+        width:100%;
+    }
+
+    #footer{
+        bottom:-800px;
+    }
+    .Name {
+        text-align:center;
+        left:250px;
+    }
+
+}
