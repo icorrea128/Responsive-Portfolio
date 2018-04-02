@@ -13,10 +13,10 @@ body {
     position:relative;
     background-color:#ffffff;
     border:1px solid #dddddd;
-    left:0px;
+    left:125px;
     bottom:-15px;
-    width:960px;
-    height:900px;  
+    width:980px;
+    height:600px;  
 }
 p{
     width:900px;
@@ -44,6 +44,9 @@ header {
     background-color:rgb(151,158,44);
     left:160px;
     height:100px;
+    width:200px;
+    /* height:103px;
+    top:-22px; */
     
 }
 footer {
@@ -87,7 +90,7 @@ form {
     position:relative;
     background-color:#ffffff;
     border:1px solid #dddddd;
-    left:0px;
+    left:100px;
     bottom:-15px;
     width:600px;
     height:600px;  
@@ -97,9 +100,9 @@ form {
     background-color:#ffffff;
     border:1px solid #dddddd;
     height:150px;
-    position:absolute;
-    right:25px;
-    top:120px;
+    position:relative;
+    right:-800px;
+    top:-588px;
 }
 .Info {
    position:absolute;
@@ -117,7 +120,7 @@ input:hover {
     color:beige;
 }
 #footer{
-    bottom:-800px;
+    bottom:-200px;
 }
 
 
@@ -126,97 +129,197 @@ input:hover {
 
   
     .wrapper {
-        width:100%;
+        
         padding: 20px;
     }
 
-    #Content, p, hr, .Links  {
-        width:100%;
+    .Links {
+        position: absolute;
+        bottom:-50px;
+        /* z-index:2 */
+        
     }
-    #Content {
-        height:900px;
+    #Content{
+        width:900px;
+        left:1px;
+        height:700px;
+        bottom:-100px;
+    }
+
+    p, hr{
+        width:850px;
     }
 
     #header {
+        top:10px;
         float:none;
-        width:100%;
+        width:900px;
+        /* z-index: 1; */
+        position:absolute;
     }
     #footer{
-        bottom:-800px;
+        bottom:-200px;
     }
     .Name {
         text-align:center;
+    }
+
+    #Connect {
+        right:-612px;
+        top:-500px;
+        width:275px;
+    }
+
+    .Info {
+        left:70px;
+    }
+
+    #Contact {
+        left:0px; 
+        bottom:-100px;
     }
 
 }
 
+
 @media screen and (max-width: 780px){
 
+  
     .wrapper {
-        width:100%x;
+        
         padding: 20px;
     }
 
-    #Content,p, hr, .Links, #footer {
-        width:100%;
+    .Links {
+        position: relative;
+        right:0px;
+        top:90px; 
+        text-align:center;
+        width:700px;
+        background-color:#ffffff;
+        
+    }
+    #Content{
+        width:700px;
+        left:1px;
+        height:900px;
+        bottom:-100px;
     }
 
-    #Content {
-        height:900px;
+    p, hr{
+        width:650px;
     }
 
     #header {
+        top:10px;
         float:none;
-        width:100%;
+        width:700px;
+        /* z-index: 1; */
+        position:absolute;
     }
     #footer{
-        bottom:-800px;
+        bottom:-400px;
     }
     .Name {
-        text-align:center;
         
+        left:250px;
+        text-align:center;
+    }
+
+    #Connect {
+        right:-100px;
+        top:110px;
+        width:500px;
+        height:125px;
+    }
+
+    .Info {
+        left:175px;
+    }
+
+    #Contact {
+        left:0px; 
+        bottom:-100px;
+        width:700px;
+    }
+
+    .form {
+        position:absolute;
+        left:150px;
+    }
+
+    h2 {
+
     }
 
 }
 
 @media screen and (max-width: 640px){
 
+  
     .wrapper {
-        width:100%;
+        
         padding: 20px;
     }
 
-    #Content, p, hr, .Links #footer {
-        width:100%;
+    .Links {
+        position: relative;
+        right:0px;
+        top:90px; 
+        text-align:center;
+        background-color:#ffffff;
+        width:550px;
     }
-    #Content {
-        height:900px;
+    #Content{
+        width:550px;
+        left:1px;
+        height:1375px;
+        bottom:-100px;
     }
 
-    #Connect {
-        width:600px;
-        background-color:#ffffff;
-        border:1px solid #dddddd;
-        height:150px;
-        position:absolute;
-        left:25px;
-        bottom:0px;
-    }
-    .Links {
-        width:100%;
+    p, hr{
+        width:500px;
     }
 
     #header {
+        top:10px;
         float:none;
-        width:100%;
-    }
-
+        width:550px;
+        /* z-index: 1; */
+        position:absolute;
+        }
     #footer{
         bottom:-800px;
-    }
+        }
     .Name {
+        
+        left:190px;
         text-align:center;
-        left:250px;
     }
 
-}
+    #Gallery {
+        position:absolute;
+        left:160px;
+    }
+    #Connect {
+        right:-25px;
+        top:110px;
+        width:500px;
+        height:125px;
+    }
+
+    .Info {
+        left:175px;
+    }
+
+    #Contact {
+        left:0px; 
+        bottom:-100px;
+        width:550px;
+    }
+
+    .form {
+        position:absolute;
+        left:75px;
+    }
+
