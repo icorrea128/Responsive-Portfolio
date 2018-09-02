@@ -41,7 +41,6 @@ header {
 }
 .Name {
     position:absolute;
-    background-color:rgb(151,158,44);
     left:160px;
     height:100px;
     width:200px;
@@ -101,6 +100,13 @@ form {
     width:600px;
     height:600px;  
 }
+
+.caveat {
+    position:absolute;
+    right:75 px;
+    text-align:left;
+    bottom:200px;
+}
 #Connect {
     width:300px;
     background-color:#ffffff;
@@ -123,7 +129,7 @@ form {
 }
 
 input:hover {
-    color:beige;
+    color:rgb(27, 105, 177);
 }
 #footer{
     bottom:-200px;
@@ -249,6 +255,12 @@ input:hover {
         width:700px;
     }
 
+    .caveat {
+        left:0;
+        bottom:-200;
+        width:550px;
+    }
+
     .form {
         position:absolute;
         left:150px;
@@ -329,3 +341,9 @@ input:hover {
         left:75px;
     }
 
+
+    .caveat {
+        left:0px; 
+        bottom:-200px;
+        width:550px;
+    }
